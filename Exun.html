@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn.io/HomePage</title>
+<style>
+* {
+    box-sizing: border-box;
+  }
+  
+
+  .column {
+    float: left;
+    width: 70%;
+    padding: 10px;
+  }
+  .column_b {
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.title {
+  float: left;
+  margin:10px;
+  background-color: white;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif; 
+}
+
+.topnav a.active {
+  background-color: #444ce0;
+  color: white;
+  border-radius: 60px;
+  margin: 10px;
+}
+.topnavb {
+  overflow: hidden;
+}
+
+.topnavb a {
+  float: left;
+  margin: 10px;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.topnavb a.title {
+  float: left;
+  background-color: white;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif; 
+  border:1px solid black;
+}
+
+.topnavb a.active {
+  background-color: #444ce0;
+  color: white;
+  border-radius: 5px;
+}
+.nomargin{
+  margin : none;
+}
+.content{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 10px;
+}
+.contentB{
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-left: 10px;
+}
+.heading{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+.card-heading{
+font-family: 'Josefin Sans', sans-serif;
+}
+.card-text{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.learnMore{
+  font-family: 'Inter', sans-serif;
+}
+</style>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  .columnC {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+  }
+  
+  .rowA:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" >Sign in</a>
+  <a class = "title">Learn.io</a>
+</div>
+
+<p></p>
+
+<div class="row">
+  <div class="column" style="background-color:white;">
+    <h2 class = "content">Learn without<br/>stepping out of<br/>your home.</h2>
+    <p class = "contentB">With the onset of the Covid 19 virus, Learn.io is<br/>
+    your one stop solution for learning literally<br/>
+    anything you'd like. From Fluid Dynamics to<br/>
+    Ancient History, we've got it all.<br/></p>
+    <div class = "column">
+      <div class = "row">
+        <div class="topnavb">
+          <a class="active" >Sign up today</a>
+          <a class="title" >Learn more</a>
+        </div>
+      </div>
+     </div>
+  </div>
+
+  <div class="column_b" style="background-color:white">
+    <img src = "./image 4.jpg" height = 200 alt = image/>
+  </div>
+</div>
+
+<h2 class = "heading">Here's what you can learn</h2>
+
+<div class="rowA">
+  <div class="columnC" style="background-color:#ffffff;">
+    <div class="card" style="width: 10rem;">
+      <img class="card-img-top" src="./Image1.jpg" height = "100" width = "200" alt="Card image cap">
+      <div class="card-body">
+        <h3 class = "card-heading">Fluid Dynamics</h3>
+        <p class="card-text">Learn how liquids and gases interact with their surroundings and how computers simulate them.</p>
+        <p class ="learnMore">LEARN MORE →</p>
+      </div>
+    </div> 
+  </div>
+  <div class="columnC" style="background-color:#ffffff;">
+    <div class="card" style="width: 10rem;">
+      <img class="card-img-top" src="./image 2.jpg" height = "100" width = "200" alt="Card image cap">
+      <div class="card-body">
+        <h3 class = "card-heading">Calculus</h3>
+        <p class="card-text">Describe changes in graphs and learn how these changes can be used to predict the future.</p>
+        <p class ="learnMore">LEARN MORE →</p>
+      </div>
+    </div> 
+  </div>
+  <div class="columnC" style="background-color:#ffffff;">
+    <div class="card" style="width: 10rem;">
+      <img class="card-img-top" src="./image3.jpg" height = "100" width = "200" alt="Card image cap">
+      <div class="card-body">
+        <h3 class = "card-heading">Ancient History</h3>
+        <p class="card-text">Explore how ancient civilizations lived on the planet we now call home and examine how they thought.</p>
+        <p class ="learnMore">LEARN MORE →</p>
+      </div>
+  </div>
+</div>
+
+</body>
+</html>
